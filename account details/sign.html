@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>
+Paisa The E-wallet-Sign in
+</title>
+<style>
+body{
+background-image:linear-gradient(45deg,pink,aqua,yellow)
+
+}
+.form{
+height:500px;
+width:400px;
+border:5px solid purple;
+margin-left:auto;
+margin-right:auto;
+margin-top:4%;
+border-radius:20px;
+}
+form{
+padding:10px 10px;
+
+}
+input{
+width:90%;
+outline:none;
+border:2px solid aqua;
+border-radius:5px;
+height:50px;
+margin-top:10px;
+font-size:16px;
+padding:2px 2px;
+}
+label{
+
+font-size:20px;
+font-family:arial
+}
+h2{text-align:center}
+button{
+
+height:50px;
+width:150px;
+background-color:lime;
+font-size:20px;
+font-family:Verdana;
+color:white;
+border-radius:5px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-left:auto;
+margin-right:auto;
+cursor:pointer;
+transition:0.5s
+}
+
+
+button:hover{background-color:yellow}
+.show{margin-left:10px;border:2px solid red;background-color:red;color:White;
+font-size:30px;cursor:pointer;font-family:elephant}
+
+</style>
+</head>
+<body>
+<div class='form'>
+
+<form action='#'>
+
+<h2>Sign in/Login in</h2>
+<p>New to this PAISA E-WALLET <a href='signup.html'>Sign up to create new id</a></p>
+<label for='user_name'>Username: </label> <input type='text' placeholder='username' id='user_name'><br><br><br>
+
+<label for='password'>Password: </label> <input type='password' placeholder='password' id='password'><span class='show' onclick=show()>S</span><br>
+<p style='font-size:18px;text-align:right'><a href='#' target="_blank">Forgot Password?</a></p>
+<button type='submit'>Sign In</button>
+
+</form>
+</div>
+
+</body>
+
+<script>
+
+function show(){
+var shown=document.querySelector('#password')
+var design = document.querySelector('.show')
+if (shown.type!='text'){shown.type='text';design.innerText='H'}else{shown.type='password';design.innerText='S'}
+
+
+}
+
+</script>
+</html>
