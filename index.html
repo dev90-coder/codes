@@ -1,0 +1,498 @@
+<html>
+<head>
+<style>
+*{margin:0px;
+padding:0px 0px
+}
+
+.nav{height:50px;
+width:100%;
+display:flex;
+align-items:center;
+border-bottom:2px solid lightgrey;
+
+background-color:lightgrey}
+.nav a{
+
+color:black;text-decoration:none;
+font-size:20px;
+font-family:arial
+}
+
+.nav table{
+
+margin-left:70%
+
+}
+.nav span{
+font-size:20px;
+color:red;
+font-family:algerian;
+margin:5px
+}
+
+.cara{
+
+height:500px;width:1000px;border:2px solid;
+margin-left:auto;
+margin-right:auto;
+margin-top:5%
+}
+
+.active{
+height:300px;
+width:100%;
+background-color:red;
+margin-top:2%;
+display:flex;
+align-items:center;
+justify-content:Center;
+flex-direction:Column
+
+}
+.bar1,.bar2,.bar3{
+font-size:90px;
+color:white;
+font-family:arial
+}
+.form{
+height:400px;
+width:320px;
+border:2px solid blue;
+background-color:lime;
+border-radius:20px;
+margin-left:auto;
+margin-right:auto;
+padding:5px 5px;
+margin-top:2%	
+}
+.form label{
+font-size:20px;
+font-family:arial;
+
+
+}
+.form input{width:100%;
+height:10%;
+outline:none;
+border:2px solid blue;
+border-radius:5px
+}
+.form h2{
+
+margin-top:10px;
+margin-bottom:10px}
+.form button{
+
+border:2px solid yellow;
+background-color:yellow;
+font-size:15px;
+margin-top:2%;
+padding:10px 10px;
+}
+
+.review1{
+padding:10px 10px;
+height:500px;
+width:300px;
+border-radius:20px;
+background-color:snow;
+font-family:ink-free;
+font-size:16px;
+display:flex;
+flex-direction:column;
+border:2px solid lightgrey
+}
+img{height:100%;width:100%;}
+.review1 .user{
+
+height:80px;
+width:80px;
+border-radius:50%;
+border:2px solid black;
+margin-left:auto;margin-right:auto;
+margin-top:12%
+}
+.review{
+height:550px;
+display:flex;
+align-items:Center;
+width:100%;
+justify-content:space-evenly
+}
+.gallery{
+height:fit-content;
+width:250px;
+padding:10px;
+font-family:Verdana;
+color:white;
+font-weight:500;
+margin-left:auto;
+margin-right:auto;
+margin-top:3%;
+border:2px solid lightgrey
+}
+body{
+background-image:linear-gradient(90deg,red,yellow,green);
+
+}
+
+.support1:hover{
+
+transform:scale(110%);
+}
+.support2:hover{
+
+transform:scale(110%);
+}
+.support3:hover{
+
+transform:scale(110%);
+}
+.master_plan{
+height:500px;
+width:100%;
+display:flex;
+
+align-items:Center;
+}
+
+/*plan1*/
+.plan1,.plan2,.plan3{
+    background-color:chartreuse;
+}
+.plan1, .plan3{
+    height:400px;
+    width:21%;
+    border:2px solid;
+    padding:3px 3px;
+}
+.plan1 input{
+margin-top:10%;
+}
+.plan3 input{
+    margin-top:10%; 
+    }
+.plan1 *{margin-left:20px;}
+
+.plan1, .plan3 *{
+    margin-left:20px;
+font-size:20px;}
+
+.plan1, .plan3 .price{
+    font-size:20px;
+    font-family:arial;
+}
+.plan1 ,.plan3 li{
+    font-size:18px;
+}
+
+.plan1,.plan2,.plan3{
+
+    margin-left:8%
+}
+
+/*plan2*/
+.plan2{
+
+    height:450px;
+    width:20%;
+    border:2px solid;
+    padding:2px 2px;
+}
+.plan2 input{
+    margin-top:10%;
+   
+}
+.plan2 *{
+    margin-left:20px;
+font-size:20px;}
+.plan2 .price{
+    font-size:20px;
+    font-family:arial;
+}
+.plan2 li{
+    font-size:18px;
+} 
+.plan1, .plan3,.plan2{
+    border:none;
+    box-shadow:2px 2px 20px 9px grey;
+    border-radius:20px;
+padding:20px 20px;
+}
+
+.footer{
+    height:200px;
+    width: 100%;
+    background-color:black;
+    margin-top:2%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    align-items:center;
+}
+.footer .top_link{
+ color:white;   
+text-decoration:none;
+font-size:20px
+}
+table{
+padding:20px 20px;
+}
+</style>
+</head>
+<body>
+
+<div class='nav'>
+<span>PAISA</span>
+<table>
+<tr>
+
+
+<td><a href='main.html'>Home</a></td>
+<td width=70></td>
+<td><a href='sign.html'>Login</a></td>
+
+</tr>
+</table>
+</div>
+
+<div class='cara'>
+<img id='cara'>
+</div>
+
+<div class='active'>
+
+<center>
+<table>
+<tr align='middle' style='width:20px'>
+<td><div class='bar1'>1</div></td>
+
+<td><div class='bar2'>2</div></td>
+
+<td><div class='bar3'>3</div></td>
+</tr>
+<tr>
+<td colspan=2></td>
+</tr>
+<tr align='middle'>
+<td align='middle'><span class='enroll'>Enrolled</span></td>
+<td><span class='enroll'>Benifited</span></td>
+<td><span class='enroll'>Subscription</span></td>
+</tr>
+
+</table>
+</center>
+<p>! These result are shown on the basis of PAISA and Economic survey report</p>
+</div>
+
+
+<form action='#'>
+<div class='form'>
+<h2 style='text-align:center;color:white'>Subscribe to our newsletter</h2>
+
+<label for='name'>Name: </label> <input type='text' id='name'><br><br>
+<label for='email'>Email: </label> <input type='email' id='email'><Br><br>
+<label for='mobile'>Mobile number: </label> <input type='text' id='mobile'>
+<p>By submitting your details you agree to our <a href='#' style='text-decoration:none;'>T&C</a></p>
+<center><button type='submit'>SUBSCRIBE</button></center>
+</div>
+</form>
+
+
+<h1 style='text-align:Center;margin-top:50px'>Our  Customer Reviews: </h1>
+<div class='review'>
+
+<div class='review1'>
+<div class='user'>
+<img src='user.png' style='border-radius:50%;'>
+</div>
+<p class='user_name' style='text-align:Center;font-size:20px;margin:10px'>Tony Joseph</p>
+<div class='text'>
+<p style='margin-top:20%;text-align:Center'>The customer support is very very good.
+They pick up the phone quickly.
+They had made my bussiness a successful.
+By using this work became easy.
+</div>
+<div class='stars'>
+<img src='star.png'>
+</div>
+</div>
+
+
+<div class='review1'>
+<div class='user'>
+<img src='user.png' style='border-radius:50%;'>
+</div>
+<p class='user_name' style='text-align:Center;font-size:20px;margin:10px'>Ahmed</p>
+
+<div class='text'>
+<p style='margin-top:20%;text-align:Center'>The customer support is very very good.
+They pick up the phone quickly.
+They had made my bussiness a successful.
+By using this work became easy.
+</div>
+<div class='stars'>
+<img src='star.png'>
+</div>
+</div>
+
+
+<div class='review1'>
+<div class='user'>
+<img src='user.png' style='border-radius:50%;'>
+</div>
+<p class='user_name' style='text-align:Center;font-size:20px;margin:10px'>Amar Singh</p>
+<div class='text'>
+<p style='margin-top:20%;text-align:Center'>The customer support is very very good.
+They pick up the phone quickly.
+They had made my bussiness a successful.
+By using this work became easy.
+</div>
+<div class='stars'>
+<img src='star.png'>
+</div>
+</div>
+
+
+</div>
+
+
+<br><br><br>
+<h1 style='text-align:Center'>Benifits:</h1>
+<div class='gallery'>
+<center>
+<table id='h'>
+<tr align='middle'>
+<td><img src='ben1.png' style='height:200px;width:200px;border-radius:50%' class='support1'></td>
+</tr>
+<tr>
+<td align='middle'><span>Quick support</span></td>
+</tr>
+
+
+<tr>
+<td><img src='ben2.jfif' style='height:200px;width:200px;border-radius:50%;' class='support2'></td>
+</tr>
+<tr>
+<td align='middle'><span>Faster</span></td>
+</tr>
+
+
+
+<tr>
+<td><img src='ben3.png' style='height:200px;width:200px;border-radius:50%;' class='support3'></td>
+</tr>
+<tr>
+<td align='middle'><span>Managed Dashboard</span></td>
+</tr>
+
+</table>
+</center>
+
+
+</div>
+<h1 style="text-align:center;margin:25px;color:black">Plans</h1>
+
+<div class="master_plan">
+
+<div class="plan1">
+    
+    <span style="margin-left:0px">20% discount</span>
+    <p class="price">
+    ₹2000/year- 
+    </p><br>
+    <p>Features</p>
+    <li>Can be extended for 1 month</li>
+    
+    <li>Available everywhere</li>
+    <li>Organized Dashboard</li>
+</div>
+
+<div class="plan2">
+  
+    <span  style="margin-left:0px">30% discount Best Saver deals</span>
+    <p class="price">
+        ₹3000 for 2 years
+    </p>
+    <p style="margin-top:5%">Features</p>
+    <li>Can be extended for 2 month</li>
+    
+    <li>Available everywhere</li>
+    <li>Organized Dashboard</li>
+    <li>Enhanced features</li>
+</div>
+
+
+<div class="plan3">
+    
+    <span style="margin-left:0px">2% discount</span>
+    <p class="price">
+        ₹399 for 1 month
+    </p>
+    <p>Features</p>
+    <li>Available everywhere</li>
+    <li>Organized Dashboard</li>
+</div>
+
+</div>
+<h1>Why PAISA E-WALLET?</h1>
+<p style='font-size:20px;margin:5px'>Paisa e-wallet gurantees you security, affordability, extension that no other manager offers you.</p>
+
+
+
+<div class="footer">
+<a href="main.html" class="top_link" style="margin-top:1%">Home</a><br>
+<a href="sign.html" class="top_link" >Sign in</a><br>
+
+<a href="contact.html" class="top_link">Contact us</a>
+<p style='color:white;margin-top:10px'>Village: XXX, City:YYYY, State:ZZZZ</p>
+</div>
+</body>
+<script>
+
+var c=0
+var cara = document.querySelector('#cara')
+var images=['logo.png','1.jpg','2.jpg','3.jpg']
+
+
+setInterval(function(){if(c!=4){cara.src=images[c];c++}else{cara.src='';c=0}},1000)
+
+
+
+bar1=document.querySelector('.bar1')
+
+
+bar2=document.querySelector('.bar2')
+
+
+bar3=document.querySelector('.bar3')
+lowerlimit=0
+upperlimit=1000
+function go(){
+if (lowerlimit !=upperlimit){
+lowerlimit+=1
+bar1.innerText=lowerlimit+'+'
+}}
+lowerlimit2=0
+upperlimit2=2000
+function go1(){
+if (lowerlimit2 !=upperlimit2){
+lowerlimit2+=1
+bar2.innerText=lowerlimit2+'+'
+}}
+
+upperlimit3=2500
+lowerlimit3=0
+function go2(){
+if (lowerlimit3 !=upperlimit3){
+lowerlimit3+=1
+bar3.innerText=lowerlimit3+'+'
+}}
+setInterval(go,10)
+setInterval(go1,10)
+setInterval(go2,0.1)
+
+
+</script>
+</html>
