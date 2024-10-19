@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     *{
+            margin:0px;
+            padding:0px 0px;
+        }
+    .time{background-color: rgb(11, 138, 91);
+            height:25px;
+        width:100%;
+    color:white;
+display: flex;
+align-items: center;}
+    .nav{
+            height:50px;
+            width:100%;
+            background-color:#FD5E53;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .nav a{
+            color:white;
+            text-decoration: none;
+            font-size:20px;
+            padding:10px 10px;
+            
+        }
+        .nav_a{
+            height:50px;
+            width: fit-content;
+            display: flex;
+            align-items: center;
+        }
+        .nav .nav_a:hover{
+            background-color: black;
+        }
+        .nav a:hover{
+            color:#FD5E53
+        }
+        .main_panel{
+            height:650px;
+            width:100%;
+            display: flex;
+            margin-top:10px
+          
+        }
+        .panel{
+            height:100%;
+            width:20%;
+            background-color:rgb(11, 138, 91);
+            display:flex;
+            align-items:center;
+            
+            flex-direction: column;
+
+        }
+        .panel a{
+            color:white;
+            font-size:20px;
+            text-decoration: none;
+            margin-top:10px;
+
+        }
+        iframe{
+            height:100%;
+            width:80%;
+            border:none;
+        }
+        footer{
+        height:300px;
+        width:100%;
+        background-color: #99649A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+       
+       }
+       footer a,.ad{
+        color:white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top:10px;
+       }
+       .ad{
+	   
+        font-weight: 100;
+       }
+       footer a:hover{
+        color:#FD5E53;
+       }
+       .team{
+        margin-top:20px;
+        margin-bottom:20px;
+        height: 500px;
+        width:100%;
+       
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:10px 10px;
+       }
+       
+      img{
+        height:100%;
+        width:100%;
+      }
+      .mem_im{
+        height:400px;
+        width:400px;
+        border:2px solid coral;
+        border-right: none;
+        border-left:none ;
+      }
+      table{
+        border: 2px solid coral;
+        padding:0px;
+        background-color
+      }
+</style>
+</head>
+<body>
+<div class="time">
+    <p id="times">Time here<p>
+</div>
+<h1 style="text-align: center;margin-top:10px">KALIADAS PUBLIC SCHOOL</h1>
+<div class="nav">
+    <span class="nav_a"><a href="home">Home</a></span>
+    <span class="nav_a"><a href="gallery">Gallery</a></span>
+    <span class="nav_a"><a href="corner">Student Corner</a></span>
+    <span class="nav_a"><a href="suggestions">Suggestions</a></span>
+    <span class="nav_a"><a href="about">About us</a></span>
+    <span class="nav_a"><a href="contact">Contact us</a></span>
+</div>
+
+<p>
+    Amrita Public School, Harraiya, Basti, U.P., is an English Medium Senior Secondary School. 
+The school has been serving the people of Harraiya since 2004.
+It is affiliated to the Central Board of Secondary Education, New Delhi, with 'No Objection Certificate' from the Government of U.P.The school is registered with the Minority Commission of India. 
+Being governed by a minority community, the school has the primary objective of educating the children of the community. However, we shall not spare any effort in rendering our service to all people, irrespective of caste and creed, so as to conserve their religion, language and culture. 
+It is a school for both boys and girls.
+The School aims at the integral development of the personality of every child; to make him committed to the service of God and the nation and to instil into him the spirit of compassion, unselfish service, dedication to duty, love for the fellowmen, thirst for excellence and wisdom. 
+It will be our earnest effort to give equal importance to the moral development of the students.
+Students are encouraged to maintain high ideals and strive for excellence in all fields. 
+The important ideas that are inculcated into them are the values of freedom & its judicious use and respect for law and order. 
+They are taught to abide by the moral principles, and unselfishness in the service of their country and fellowmen.
+</p>
+<h1 align="center">Our team members</h1>
+<div class="team">
+<div class="member">
+    <table>
+        <tr align="center">
+            <td>OUR MANAGER</td>
+        </tr>
+        <tr align="center">
+            <td><img class="mem_im" src="manager.jpg"></td>
+        </tr>
+        <tr align="center">
+            <td>Name</td>
+        </tr>
+    </table>
+</div>
+<div class="member">
+    <table>
+        <tr align="center">
+            <td>OUR PRINCIPAL</td>
+        </tr>
+        <tr align="center">
+            <td><img src="principal.jpg" class="mem_im"></td>
+        </tr>
+        <tr align="center">
+            <td>Name</td>
+        </tr>
+    </table>
+</div>
+<div class="member">
+    <table cellpadding="0px">
+        <tr align="center">
+            <td>OUT VICE PRINCIPAL</td>
+        </tr>
+        <tr align="center">
+            <td><img src="vice.jpg" class="mem_im"></td>
+        </tr>
+        <tr align="center">
+            <td>Mr. Kaluwa singh</td>
+        </tr>
+    </table>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+    <a href="home">Home</a>
+    <a href="gallery">Gallery</a>
+    <a href="corner">Studnet's Corner</a>
+    <a href="suggestions">Suggestions</a>
+    <a href="contact">Contact us</a>
+    <a href="about">About us</a>
+    <p class='ad'>Address: Village Harriya,Basti 272155</p>
+    <p class="ad">Phone Number: +91 989745623, 1800 568 569</p>
+    
+</footer>
+</body>
+
+<script>
+    const time = document.getElementById("times")
+    setInterval(function(){
+        var d = new Date()
+        let times = d.getDate()
+        console.log(d)
+        time.innerText=d
+    },1000)
+</script>
+</html>
