@@ -442,9 +442,17 @@ They are taught to abide by the moral principles, and unselfishness in the servi
 
 window.onscroll= function(e){
     var animations = "anim 1.5s forwards linear";
-    if (window.scrollY >= 0){document.querySelector('.animate').style.animation=animations};
-    if (window.scrollY >= 100){document.querySelector('.animate1').style.animation=animations;};
-    if (window.scrollY >= 400 || window.scrollY >= 500 ){document.querySelector('.animate2').style.animation=animations;};
+    var anim=document.querySelector('.animate')
+    var rect = anim.getBoundingClientRect();
+
+    var anim1=document.querySelector('.animate1')
+    var rect1 = anim.getBoundingClientRect();
+
+    var anim2=document.querySelector('.animate2')
+    var rect2 = anim.getBoundingClientRect();
+    if (window.scrollY <= Math.floor(rect.x)){anim.style.animation=animations};
+    if (window.scrollY <= Math.floor(rect1.x)){anim1.style.animation=animations;};
+    if (window.scrollY <= Math.floor(rect2.x)){anim2.style.animation=animations;};
 }
 </script>
 </html>
